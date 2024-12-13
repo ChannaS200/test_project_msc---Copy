@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="container">
         <form method="POST" action="readdata.php">
             <input type="text" name="name" placeholder="please Enter Name" required>
-            <input type="number" name="age" placeholder="Enter Age" required>
+            <input type="number" name="age" placeholder="please Enter Age" required>
             <input type="submit" value="Submit">
         </form>
     </div>
